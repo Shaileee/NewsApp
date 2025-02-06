@@ -39,8 +39,8 @@ The goal of this project is to demonstrate a clean, scalable, and testable archi
 
 ## Screenshots
 
-![CompanyNews Screen](https://github.com/Shaileee/NewsDemoApp/blob/main/media/CompanyNewsListScreen.jpg)
-![CompanyDetail Screen](https://github.com/Shaileee/NewsDemoApp/blob/main/media/CompanyNewsArticlesDetailsScreen.jpg)
+![CompanyNews Screen](https://github.com/Shaileee/NewsApp/blob/main/media/CompanyNewsListScreen.jpg)
+![CompanyDetail Screen](https://github.com/Shaileee/NewsApp/blob/main/media/CompanyNewsArticlesDetailsScreen.jpg)
 
 
 ## Project Structure
@@ -62,7 +62,7 @@ where all the important data and operations are defined. It is independent of an
     - `CompanyNewsRepository.kt`: The repository interface defining methods for news articles details.
     - 'GetCompaniesNewsUseCase.kt': defines usecases for news articles
 
-- ### Data: Responsible for interacting with external data sources (e.g., APIs, databases)
+- ### data: Responsible for interacting with external data sources (e.g., APIs, databases)
 - The Data Layer handles data management and is responsible for accessing and providing data to the domain layer.
   It can interact with various data sources such as databases, network APIs, or local storage.
 
@@ -100,7 +100,7 @@ Model-View-Intent (MVI) provides a unidirectional data flow to ensure a predicta
 - **State**: Immutable recompanyinfo of the UI at any moment.
 - **View**: Reacts to the state and renders the UI.
 
-![MVI Architecture](https://github.com/Shaileee/NewsDemoApp/blob/main/media/MVI_detail.png)?raw=true)
+![MVI Architecture](https://github.com/Shaileee/NewsApp/blob/main/media/MVI_detail.png)
 
 ### Clean Architecture
 
@@ -111,7 +111,7 @@ Clean Architecture separates the code into layers to ensure modularity and maint
 - **Repositories**: Abstract data sources like APIs or local databases.
 - **Frameworks & Drivers**: Interface with external tools and frameworks.
 
-![Clean Architecture](https://github.com/Shaileee/NewsDemoApp/blob/main/media/Artboard_15587.png)?raw=true)
+![Clean Architecture](https://github.com/Shaileee/NewsApp/blob/main/media/Artboard_15587.png)
 
 ---
 
@@ -130,4 +130,4 @@ Clean Architecture separates the code into layers to ensure modularity and maint
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Shaileee/NewsDemoApp.git
+   git clone https://github.com/Shaileee/NewsApp.git
