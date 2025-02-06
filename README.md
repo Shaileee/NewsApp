@@ -1,4 +1,4 @@
-# NewsDemoApp
+# NewsApp
 # MVI and Clean Architecture News Application
 
 ## Overview
